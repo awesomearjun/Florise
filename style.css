@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(76, 112, 205);
+    text-align: center;
+}
+
+#title {
+    font-family: sans-serif;
+}
+
+items {
+    display: grid;
+    align-items: center;
+}
+
+
+item img {
+    cursor: pointer;
+    width: 30vh;
+    height: 35vh;
+    border-radius: 5vh;
+}
