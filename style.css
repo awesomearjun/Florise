@@ -10,6 +10,8 @@ body {
 items {
     display: grid;
     gap: 5vh;
+    margin: 5vh;
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
 }
 
