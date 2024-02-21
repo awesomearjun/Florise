@@ -9,9 +9,20 @@ body {
 
 items {
     display: grid;
-    align-items: center;
+    gap: 5vh;
+    justify-content: center;
 }
 
+item {
+    padding: 5vh;
+    padding-bottom: 5vh;
+    background-color: rgb(224, 224, 224);
+    text-align: center;
+}
+
+item p {
+    padding-top: 3vh;
+}
 
 item img {
     cursor: pointer;
